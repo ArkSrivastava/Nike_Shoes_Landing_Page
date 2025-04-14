@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike. Just Do It.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <svg height="60px" width="60px" fill="#111" viewBox="0 0 69 32">
+                <path d="M68.56 4L18.4 25.36Q12.16 28 7.92 28q-4.8 0-6.96-3.36-1.36-2.16-.8-5.48t2.96-7.08q2-3.04 6.56-8-1.6 2.56-2.24 5.28-1.2 5.12 2.16 7.52Q11.2 18 14 18q2.24 0 5.04-.72z"/>
+            </svg>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-item">
+                <a href="#new-featured">New & Featured</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <div class="menu-column">
+                            <h4>New & Featured</h4>
+                            <ul>
+                                <li><a href="#new">New Releases</a></li>
+                                <li><a href="#best">Best Sellers</a></li>
+                                <li><a href="#member">Member Exclusive</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item" id="mens-nav">
+                <a href="#mens">Men</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <div class="menu-column">
+                            <h4>Shoes</h4>
+                            <ul>
+                                <li><a href="#mens-running">Running</a></li>
+                                <li><a href="#mens-training">Training</a></li>
+                                <li><a href="#mens-basketball">Basketball</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-column">
+                            <h4>Clothing</h4>
+                            <ul>
+                                <li><a href="#mens-tops">Tops</a></li>
+                                <li><a href="#mens-pants">Pants</a></li>
+                                <li><a href="#mens-jackets">Jackets</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#womens">Women</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <div class="menu-column">
+                            <h4>Footwear</h4>
+                            <ul>
+                                <li><a href="#">Running</a></li>
+                                <li><a href="#">Training</a></li>
+                                <li><a href="#">Basketball</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#kids">Kids</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <div class="menu-column">
+                            <h4>Footwear</h4>
+                            <ul>
+                                <li><a href="#">Running</a></li>
+                                <li><a href="#">Training</a></li>
+                                <li><a href="#">Basketball</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item" id="sale-nav">
+                <a href="#sale">Sale</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-content">
+                        <div class="menu-column">
+                            <h4>Sale By Category</h4>
+                            <ul>
+                                <li><a href="#sale-shoes">Shoes</a></li>
+                                <li><a href="#sale-clothing">Clothing</a></li>
+                                <li><a href="#sale-accessories">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="nav-actions">
+            <div class="search-container">
+                <input type="search" placeholder="Search Nike.com" class="search-input">
+                <div class="search-results">
+                    <!-- Search results will be dynamically added here -->
+                </div>
+            </div>
+            <div class="nav-icons">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">JUST DO IT</h1>
+            <p class="animate-text">Your Next Level Awaits</p>
+            <button class="cta-button animate-text">Shop Now</button>
+        </div>
+        <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3" alt="Nike Hero" class="hero-image">
+    </header>
+
+    <main>
+        <section class="featured-slider">
+            <div class="slide-container">
+                <div class="slide">
+                    <img src="https://courtorder.co.za/cdn/shop/files/nike-nike-dunk-low-next-nature-soft-yellow-alabaster-women-s-sneakers-40408253726869.jpg?v=1713886512" alt="Nike Dunk">
+                    <div class="slide-content">
+                        <h2>Nike Dunk Low</h2>
+                        <p>Classic Style Reimagined</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://knickgasm.com/cdn/shop/files/Nike-Air-Force-1-x-Glitch-Knickgasm-1183.jpg?v=1734418039" alt="Nike Air Force">
+                    <div class="slide-content">
+                        <h2>Air Force 1</h2>
+                        <p>Iconic Legacy</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b0aecb4c-3e97-4080-a944-dcbd89af7ee7/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png" alt="Nike Air Jordan">
+                    <div class="slide-content">
+                        <h2>Jordan Collection</h2>
+                        <p>Elevate Your Game</p>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-nav prev">❮</button>
+            <button class="slide-nav next">❯</button>
+        </section>
+
+        <section class="featured-products">
+            <h2>Trending Now</h2>
+            <div class="product-grid">
+                <div class="product-card" data-id="1">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Nike Red Shoe">
+                    <h3>Nike Air Max</h3>
+                    <p>₹9,999</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="2">
+                    <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa" alt="Nike Running Shoe">
+                    <h3>Nike Zoom</h3>
+                    <p>₹11,499</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="3">
+                    <img src="https://images.unsplash.com/photo-1605348532760-6753d2c43329" alt="Nike Sneaker">
+                    <h3>Nike Air Jordan</h3>
+                    <p>₹13,999</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="4">
+                    <img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb" alt="Nike Casual">
+                    <h3>Nike Court Vintage</h3>
+                    <p>₹6,999</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card" data-id="5">
+                    <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a" alt="Nike Air Force 1">
+                    <h3>Nike Air Force 1</h3>
+                    <p>₹8,999</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="new-featured" class="featured-section">
+            <h2>New Arrivals</h2>
+            <div class="product-grid">
+                <!-- New products will be added dynamically via JavaScript -->
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Shop By Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/25d88212-276d-4004-8fc8-75987b439c7d/image.png" alt="Men">
+                    <h3>Men</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4213dc48-647c-42ac-bfaa-17c802450711/W+NSW+PHNX+FLC+MR+PANT+STD.png" alt="Women">
+                    <h3>Women</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1536,c_limit/ca1f75cd-a00b-4be7-8c98-fde70e3d63c2/nike-kids.jpg" 
+                         alt="Kids"
+                         loading="lazy"
+                         decoding="async">
+                    <h3>Kids</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FIND A STORE</h3>
+                <h3>BECOME A MEMBER</h3>
+                <h3>SIGN UP FOR EMAIL</h3>
+            </div>
+            <div class="footer-section">
+                <h3>GET HELP</h3>
+                <ul>
+                    <li>Order Status</li>
+                    <li>Delivery</li>
+                    <li>Returns</li>
+                    <li>Payment Options</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>ABOUT NIKE</h3>
+                <ul>
+                    <li>News</li>
+                    <li>Careers</li>
+                    <li>Investors</li>
+                    <li>Sustainability</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
